@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A7AE151BE5A9CE00AEF025 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26A7AE141BE5A9CE00AEF025 /* main.cpp */; };
+		26A7AE201BE5B07000AEF025 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A7AE1F1BE5B07000AEF025 /* GLUT.framework */; };
+		26A7AE221BE5B07500AEF025 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A7AE211BE5B07500AEF025 /* OpenGL.framework */; };
+		26A7AE231BE5B1B000AEF025 /* main.h in Sources */ = {isa = PBXBuildFile; fileRef = 26A7AE1B1BE5A9E200AEF025 /* main.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26A7AE0F1BE5A9CE00AEF025 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26A7AE111BE5A9CE00AEF025 /* NightSky */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NightSky; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A7AE141BE5A9CE00AEF025 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		26A7AE1B1BE5A9E200AEF025 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		26A7AE1F1BE5B07000AEF025 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		26A7AE211BE5B07500AEF025 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A7AE0E1BE5A9CE00AEF025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A7AE221BE5B07500AEF025 /* OpenGL.framework in Frameworks */,
+				26A7AE201BE5B07000AEF025 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A7AE081BE5A9CE00AEF025 = {
+			isa = PBXGroup;
+			children = (
+				26A7AE211BE5B07500AEF025 /* OpenGL.framework */,
+				26A7AE1F1BE5B07000AEF025 /* GLUT.framework */,
+				26A7AE131BE5A9CE00AEF025 /* NightSky */,
+				26A7AE121BE5A9CE00AEF025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26A7AE121BE5A9CE00AEF025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A7AE111BE5A9CE00AEF025 /* NightSky */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A7AE131BE5A9CE00AEF025 /* NightSky */ = {
+			isa = PBXGroup;
+			children = (
+				26A7AE141BE5A9CE00AEF025 /* main.cpp */,
+				26A7AE1B1BE5A9E200AEF025 /* main.h */,
+			);
+			path = NightSky;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A7AE101BE5A9CE00AEF025 /* NightSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A7AE181BE5A9CE00AEF025 /* Build configuration list for PBXNativeTarget "NightSky" */;
+			buildPhases = (
+				26A7AE0D1BE5A9CE00AEF025 /* Sources */,
+				26A7AE0E1BE5A9CE00AEF025 /* Frameworks */,
+				26A7AE0F1BE5A9CE00AEF025 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NightSky;
+			productName = NightSky;
+			productReference = 26A7AE111BE5A9CE00AEF025 /* NightSky */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A7AE091BE5A9CE00AEF025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Silva IO";
+				TargetAttributes = {
+					26A7AE101BE5A9CE00AEF025 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 26A7AE0C1BE5A9CE00AEF025 /* Build configuration list for PBXProject "NightSky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26A7AE081BE5A9CE00AEF025;
+			productRefGroup = 26A7AE121BE5A9CE00AEF025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A7AE101BE5A9CE00AEF025 /* NightSky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A7AE0D1BE5A9CE00AEF025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A7AE231BE5B1B000AEF025 /* main.h in Sources */,
+				26A7AE151BE5A9CE00AEF025 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26A7AE161BE5A9CE00AEF025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26A7AE171BE5A9CE00AEF025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26A7AE191BE5A9CE00AEF025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26A7AE1A1BE5A9CE00AEF025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A7AE0C1BE5A9CE00AEF025 /* Build configuration list for PBXProject "NightSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A7AE161BE5A9CE00AEF025 /* Debug */,
+				26A7AE171BE5A9CE00AEF025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A7AE181BE5A9CE00AEF025 /* Build configuration list for PBXNativeTarget "NightSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A7AE191BE5A9CE00AEF025 /* Debug */,
+				26A7AE1A1BE5A9CE00AEF025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A7AE091BE5A9CE00AEF025 /* Project object */;
+}
